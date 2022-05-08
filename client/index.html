@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <link href="jquery.cssemoticons.css" media="screen" rel="stylesheet" type="text/css" />
+	<script src="jquery.cssemoticons.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="tinyscrollbar.css">
+    <script src="jquery.tinyscrollbar.js"></script>
+    <script src="jquery.tinyscrollbar.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#scrollbar1").tinyscrollbar();
+        });
+    </script>
+</head>
+<body onload="alp()">
+    <div id="all">
+    <div id="scrollbar1">
+        <div id="lol"></div>
+        <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+        <div class="viewport">
+            <div class="overview">
+            </div>
+        </div>
+    </div>
+    <input type="text" id="input" name="input" required minlength="1" >
+    <!-- <button id="bt" onclick="leci()">dobry przekaz leci</button> -->
+    </div>
+</body>
+    <script src="js.js"></script> 
+    <!-- działa? działa! -->
+</html>
